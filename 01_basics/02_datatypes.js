@@ -58,3 +58,24 @@ const myFunction = function(){
     
 }
 console.log(typeof bigNumber);
+
+
+//***************************************************** */
+// stack (primitive), heap(Non primitive )
+let myYoutubename ="thepritampatildotcom"
+let anotherName = myYoutubename;
+anotherName ="writecode"
+console.log(anotherName);
+
+let userOne = {
+    email:"thepr@gmail.com",
+    upi : "user@ybl"
+
+}
+let userTwo = userOne
+userTwo.email="pritam.google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
